@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:packetChoice;datatype:blob,name:storeName;datatype:blob,name:products;datatype:blob,name:colorChoice;datatype:blob,name:firstColor;datatype:blob,name:secondColor;datatype:blob,name:thirdColor;datatype:blob,name:fourthColor;datatype:blob,name:fifthColor;datatype:blob,name:name;datatype:blob,name:email;datatype:blob,name:tel;datatype:blob,name:address;datatype:blob,name:others;datatype:blob" />
+	<infoitem key="UD_Recordset2" value="name:shahr;datatype:blob,name:ostan;datatype:blob,name:jens;datatype:blob,name:sahmie;datatype:blob,name:keshvar;datatype:blob,name:reshte;datatype:blob" />
+</info>

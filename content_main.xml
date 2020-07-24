@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    tools:context="ir.ghazaal.range.myapplication.MainActivity"
+    android:fillViewport="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:id="@+id/imageView"
+            android:layout_height="match_parent"
+            android:background="#7371df"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView2"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/stats_04"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:gravity="center_vertical|center_horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:id="@+id/button"
+                    android:background="#fff"
+                    android:layout_margin="10dp"
+                  />
+
+
+
+            <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    android:id="@+id/button2"
+                    android:background="#fff"
+                    android:layout_margin="10dp"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="#fff"
+                    android:id="@+id/button3"
+
+                    android:layout_margin="10dp"
+                    />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

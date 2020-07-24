@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:which-plans;datatype:int,name:store-name;datatype:blob,name:which-products;datatype:blob,name:which-colors;datatype:int,name:customer-name;datatype:blob,name:customer-email;datatype:blob,name:customer-call;datatype:blob,name:customer-address;datatype:blob,name:customer-description;datatype:blob" />
+</info>
